@@ -8,14 +8,17 @@
 </head>
 <body>
         <div class="mainWrapper">
+            <form action="https://formspree.io/f/xwkdkzgl"
+            method="POST">
             <h1 class="Content">Registration Form</h1>
-            <input type="text" name="fname" id="fname" placeholder="First Name">
-            <input type="text" name="lname" id="lname" placeholder="Last Name">
+            <input type="text" name="fname" id="fname" required placeholder="First Name">
+            <input type="text" name="lname" id="lname" required placeholder="Last Name">
             <input type="email" id="email" name="email" placeholder="Email">
-            <input type="password" name="password" id="password" placeholder="Password"><br><br><br>
-            <input type="checkbox"><p class="spanP">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint optio nihil iure eos maxime impedit?</p><br><br>
-            <input type="checkbox"><p class="spanP">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint optio nihil iure eos maxime impedit?</p><br><br>
-            <a href="#register" class="btn">Register</a>
+            <input type="password" name="password" required id="password" placeholder="Password"><br><br><br>
+            <input type="checkbox" id="checkbox" required name="checkbox"><p class="spanP">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint optio nihil iure eos maxime impedit?</p><br><br>
+            <input type="checkbox" id="checkbox" required ="checkbox"><p class="spanP">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint optio nihil iure eos maxime impedit?</p><br><br>
+            <button type="submit">Register</button>
+            </form>
         </div>
 </body>
 </html>
